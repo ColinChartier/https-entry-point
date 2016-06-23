@@ -1,0 +1,4 @@
+#! /bin/bash
+
+#force daemon off in case someone forgets to put it in config.
+exec nginx -g 'daemon off;'
